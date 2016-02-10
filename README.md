@@ -11,15 +11,15 @@ Working in Progress. The goal of this FTL is to make a stable storage driver for
 - [ ] Wear leveling
 - [x] Bad block managing
 - [ ] TRIM/GC
-- [ ] MLC/TLC support (Maybe it will be never implemented)
+- [ ] MLC/TLC support (It maybe never implemented)
 - [ ] SLC mode support (It still requires a strong software ECC)
-- [ ] RS ECC parity support (Maybe it will be never implemented)
+- [ ] RS ECC parity support (It maybe never implemented)
 - [ ] BCH ECC parity support
 - [x] Hamming ECC parity support
 - [x] GD5F series Error-free NAND support
 - [ ] STM32 NAND controller hardware ECC support
-- [ ] Tiny device support (e.g. RAM less than 2KB device, e.g. AVR or 8051) (Maybe it will be never implemented)
-- [ ] NOR Flash support (Maybe it will be never implemented)
+- [ ] Tiny device support (e.g. RAM less than 2KB device, e.g. AVR or 8051) (It maybe never implemented)
+- [ ] NOR Flash support (It maybe never implemented)
  
 Stub Functions
 ===
