@@ -6,7 +6,7 @@ A FTL layer to remapping the NAND device as legacy 512b/sector block device for 
 Features
 ===
 
-Working in Progress. I don't think this layer is suitable for valuable use!
+Working in Progress. The goal of this FTL is to make a stable storage driver for industrial or embedded device usage.
 
 - [ ] Wear leveling
 - [x] Bad block managing
