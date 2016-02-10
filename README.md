@@ -8,10 +8,19 @@ Features
 
 Working in Progress. I don't think this layer is suitable for valuable use!
 
-- [ ] Wear leveling 
-- [ ] Bad block managing
+- [ ] Wear leveling
+- [x] Bad block managing
 - [ ] TRIM/GC
-
+- [ ] MLC/TLC support (Maybe it will be never implemented)
+- [ ] SLC mode support (It still requires a strong software ECC)
+- [ ] RS ECC parity support (Maybe it will be never implemented)
+- [ ] BCH ECC parity support
+- [x] Hamming ECC parity support
+- [x] GD5F series Error-free NAND support
+- [ ] STM32 NAND controller hardware ECC support
+- [ ] Tiny device support (e.g. RAM less than 2KB device, e.g. AVR or 8051) (Maybe it will be never implemented)
+- [ ] NOR Flash support (Maybe it will be never implemented)
+ 
 Stub Functions
 ===
 
