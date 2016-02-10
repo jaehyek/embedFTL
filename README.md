@@ -76,9 +76,9 @@ CTRL_SET_BBT Re-write bad_block table, this function is also very dangerous!
 
 GET_FTL_PARAMENTERS Returns media type (SLC or MLC), ECC type, total erase cycle, average block erace cycle, ECC error rate. You can use it to except the flash's lifetime. and FTL also can monitoring the flash status, if the FTL except the flash will reaches it 's life time, it will use more ECC codes, and probably makes the device write-protected, and notice upper to replace media or copy out data.
 
-CTRL_GC_DEEP Pending a deep garbage collection on device. If it is running in process, write data will be write to FTL's buffer if it is a interrupt trigged write, if the FTL's buffer is full, write() will returns FTL_WAIT.
+CTRL_GC_DEEP Pending a deep garbage collection on device. If it is running in process, write data will be write to FTL's buffer if it is a interrupt triggered write, if the FTL's buffer is full, write() will returns FTL_WAIT.
 
-CTRL_GC_MILD Pending a mild garbage collection on device, it will not take long, if the write() function detected the free log pages is low than thresold, it will be trigged.
+CTRL_GC_MILD Pending a mild garbage collection on device, it will not take long, if the write() function detected the free log pages is low than thresold, it will be triggered.
 
 
 License
